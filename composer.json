@@ -1,0 +1,14 @@
+{
+    "name": "contraloria/municipal-paez",
+    "description": "Sistema de la Contraloría Municipal del Municipio Páez – Estado Portuguesa",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contraloria\\": "src/"
+        }
+    }
+}
